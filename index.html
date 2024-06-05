@@ -1,555 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Prelimformula</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
-
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-light p-0">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>123 Street, New York, USA</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
-                    <small class="far fa-clock text-primary me-2"></small>
-                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+012 345 6789</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">PrelimFormula</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>PrelimFormula</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content=""> 
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+ 
+</head>  
+<body style="background-color: rgb(0, 0, 89); ">
+  <!--header section start -->
+    <div class="header_section">
+      <div class="header_left">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- <div class="logo"><a href="index.html"> <p >PrelimFormula</p> </a></div> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto" >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: white;">Home</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html" style="color: white;">Services</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: white;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="banner_main">
+          <h1 class="banner_taital" style="color: white;">Prelims <br>Formula</h1>
+          <p class="banner_text" style="color: white;">
+            Discover Endless Possibilities in Exporting, Manpower, Real Estate, Tours & Travels, Business Consulting, Private Jet Services, and Trading with PrelimFormula.          </p>
+          <div class="btn_main">
+            <div class="more_bt"><a href="#" style="color: white;">Read More </a></div>
+            <div class="contact_bt"><a href="#" style="color: white;">Contact Us</a></div>
+          </div>
         </div>
-    </nav>
-    <!-- Navbar End -->
-
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Prelimformula</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Empowering Businesses Across Multiple Verticals</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Prelimformula is committed to providing top-notch services in the realms of exporting, manpower, real estate, tours and travels, business consulting, private jet services, and trading. Our dedication to excellence sets us apart. Explore the possibilities with Prelimformula.</p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="#" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get in Touch</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Prelimformula</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Driving Growth and Innovation Globally</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">At Prelimformula, we are dedicated to driving growth and innovation globally. Our expert team works tirelessly to provide comprehensive solutions that aim to exceed your expectations. Partner with us for success.</p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Discover More</a>
-                                <a href="#" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Prelimformula</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solutions for Your Business Needs</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Prelimformula offers innovative solutions tailored to meet your business needs. With a focus on excellence, we strive to provide unmatched services across industry verticals. Let's shape the future together.</p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Explore Services</a>
-                                <a href="#" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Request Information</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="header_right">
+        <img src="images/banner-img.png" class="banner_img">
+      </div>
     </div>
-    
-    <!-- Carousel End -->
-
-
-    <!-- Feature Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
-                            <i class="fa fa-user-check fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">01</h1>
-                    </div>
-                    <h5>Skilled Craftsmen</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
-                            <i class="fa fa-check fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">02</h1>
-                    </div>
-                    <h5>Premium Materials</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
-                            <i class="fa fa-drafting-compass fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">03</h1>
-                    </div>
-                    <h5>Custom Solutions</h5>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
-                            <i class="fa fa-headphones fa-2x text-primary"></i>
-                        </div>
-                        <h1 class="display-1 text-light mb-0">04</h1>
-                    </div>
-                    <h5>24/7 Assistance</h5>
-                </div>
-            </div>
+    <!--header section end -->
+    <!--about section start -->
+    <div class="services_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="services_taital">DISCOVER ENDLESS POSSIBILITIES WITH PRELIMFORMULA</h1>
+            <p class="services_text">At PrelimFormula, we pave the way for your success across an array of industries. Whether you seek seamless exporting, exceptional manpower solutions, prime real estate opportunities, memorable tours and travels, expert business consulting, exclusive private jet services, or thriving trading ventures, we are your dedicated partners in progress.</p>
+            <div class="moremore_bt"><a href="#">Explore Our Services </a></div>
         </div>
-    </div>
-    
-    <!-- Feature Start -->
-
-
-
-    <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-    <div class="container about px-lg-0">
-        <div class="row g-0 mx-lg-0">
-            <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="About Image">
-                </div>
-            </div>
-            <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                <div class="p-lg-5 pe-lg-0">
-                    <div class="section-title text-start">
-                        <h1 class="display-5 mb-4">Who We Are</h1>
-                    </div>
-                    <p class="mb-4 pb-2">Prelimformula is a dynamic organization dedicated to delivering innovative solutions across multiple domains. Our commitment to excellence and customer satisfaction sets us apart in the industry. We aim to exceed expectations and drive positive change.</p>
-                    <div class="row g-4 mb-4 pb-2">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex align-items-center">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-users fa-2x text-primary"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <span style="display: flex;">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">1000</h2> 
-                                        <span style="font-size: 24px;">+</span>
-                                    </span>
-                                    <p class="fw-medium mb-0">Satisfied Clients</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                    <i class="fa fa-check fa-2x text-primary"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <span style="display: flex;">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">500</h2> 
-                                        <span style="font-size: 24px;">+</span>
-                                    </span>
-                                    
-                                    <p class="fw-medium mb-0">Successful Projects</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="btn btn-primary py-3 px-5">Call Us</a>
-                </div>
-            </div>
+        
+          <div class="col-md-4">
+            <div><img src="images/img-1.png" class="image_1"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    
+    <!--about section end -->
+    <!--services section start -->
+    <div class="what_we_do_section layout_padding">
+      <div class="container">
+        <h1 class="what_taital" style="color: white;">WHAT WE DO</h1>
+        <p class="what_text" style="color: white;">
+          Empowering success across diverse industries through our comprehensive range of services. </p>
+        <div class="what_we_do_section_2">
+          <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/1 (2).png"></div>
+              <h3 class="accounting_text">Exporting</h3>
+              <p class="lorem_text">Global trade made simple with our expertise.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main active">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/2 (2).png"></div>
+              <h3 class="accounting_text">Manpower</h3>
+              <p class="lorem_text">Unlocking human potential for your workforce needs.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/3 (2).png"></div>
+              <h3 class="accounting_text">Realestate</h3>
+              <p class="lorem_text">Discover prime properties tailored to your needs.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/4 (2).png"></div>
+              <h3 class="accounting_text">tours & travels</h3>
+              <p class="lorem_text">Creating unforgettable travel experiences just for you.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/5 (2).png"></div>
+              <h3 class="accounting_text">Business consulting </h3>
+              <p class="lorem_text">Strategic guidance for your business growth.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main active">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/6 (2).png"></div>
+              <h3 class="accounting_text">Private Jet service's</h3>
+              <p class="lorem_text">Luxury travel redefined for the elite.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/7 (2).png"></div>
+              <h3 class="accounting_text">Trading</h3>
+              <p class="lorem_text">Navigating the markets, maximizing opportunities.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box_main">
+              <div class="icon_1"><img style="height: 80px;" src="images/png/1 (2).png"></div>
+              <h3 class="accounting_text">exporting</h3>
+              <p class="lorem_text">Global trade made simple with our expertise.</p>
+              <div class="moremore_bt_1"><a href="#">Read More </a></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--services section end -->
    
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Our Services</h1>
+    <!--project section start -->
+
+
+    <!-- <div class="project_section layout_padding">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="project_main">
+              <h1 class="services_taital">Our projects</h1>
+              <p class="services_text">It is a long established fact that a reader will be distracted by the readable content of a </p>
+              <div class="moremore_bt"><a href="#">Read More </a></div>
+              <div class="image_6"><img src="images/img-6.png"></div>
             </div>
-            <div class="row g-4">
-                <!-- Exporting -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Exporting">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Exporting</h4>
-                            <p>We provide efficient and reliable exporting services to global destinations. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a class="fw-medium" href="/exporting">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
+          </div>
+          <div class="col-md-6">
+            <div class="images_main">
+              <div class="images_left">
+                <div class="container_1">
+                  <img src="images/img-2.png" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text"><img src="images/search-icon.png"></div>
+                    <h2 class="fact_text">Established Fact</h2>
+                  </div>
                 </div>
-                <!-- Manpower -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Manpower">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Manpower</h4>
-                            <p>We offer skilled and qualified manpower solutions for various industries. Ut enim ad minim veniam.</p>
-                            <a class="fw-medium" href="/manpower">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
+                <div class="container_1">
+                  <img src="images/img-3.png" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text"><img src="images/search-icon.png"></div>
+                    <h2 class="fact_text">Established Fact</h2>
+                  </div>
                 </div>
-                <!-- Real Estate -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Real Estate">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Real Estate</h4>
-                            <p>Explore our premium real estate services for buying, selling, and leasing properties. Sed do eiusmod tempor incididunt ut labore.</p>
-                            <a class="fw-medium" href="/real-estate">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
+              </div>
+              <div class="images_right">
+                <div class="container_1">
+                  <img src="images/img-4.png" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text"><img src="images/search-icon.png"></div>
+                    <h2 class="fact_text">Established Fact</h2>
+                  </div>
                 </div>
-                <!-- Tours and Travels -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Tours and Travels">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Tours and Travels</h4>
-                            <p>Discover our exceptional tours and travel packages for memorable experiences. Duis aute irure dolor in reprehenderit in voluptate.</p>
-                            <a class="fw-medium" href="/tours-travels">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
+                <div class="container_1">
+                  <img src="images/img-5.png" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <div class="text"><img src="images/search-icon.png"></div>
+                    <h2 class="fact_text">Established Fact</h2>
+                  </div>
                 </div>
-                <!-- Business Consulting -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Business Consulting">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Business Consulting</h4>
-                            <p>Our professional business consulting services are tailored to your specific needs. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                            <a class="fw-medium" href="/business-consulting">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Private Jet Services -->
-                <div class="col-md-6 col-lg-4 wow fadeIn  Up" data-wow-delay="0.6s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Private Jet Services">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Private Jet Services</h4>
-                            <p>Experience luxurious and personalized private jet services for your travel needs. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
-                            <a class="fw-medium" href="/private-jet">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Trading -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="Trading">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Trading</h4>
-                            <p>Engage in successful trading ventures with our expert guidance and market insights. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-                            <a class="fw-medium" href="/trading">Read More<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-
-    <!-- Service End -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container feature px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Why Choose Us</h1>
-                        </div>
-                        <p class="mb-4 pb-2">We stand out in the industry with our unparalleled dedication to delivering exceptional services and solutions. Our commitment to quality and innovation sets us apart.</p>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-chart-line fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Innovative</p>
-                                        <h5 class="mb-0">Approach</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-cogs fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Efficient</p>
-                                        <h5 class="mb-0">Processes</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-handshake fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Partnership</p>
-                                        <h5 class="mb-0">Approach</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-users fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-2">Collaborative</p>
-                                        <h5 class="mb-0">Team</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    <!-- Feature Start -->
-   
-    <!-- Feature End -->
-
-
-    <!-- Projects Start -->
-   
-    <!-- Projects End -->
-
-
-    <!-- Quote Start -->
-   
-    <!-- Quote End -->
-
-
-    <!-- Team Start -->
-     
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Testimonial</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 90px; height: 90px;">
-                    <div class="testimonial-text text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div> -->
-    <!-- Testimonial End -->
-
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-             
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">Home</a>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                   
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-light mb-4">PrelimFormula</h4>
-                    <p>Prelim Formula is dedicated to providing innovative solutions and
-                         efficient processes, emphasizing a partnership approach and collaborative teamwork.</p>
-                    
-                </div>
-            </div>
+    <div class="project_section_2 layout_padding mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="icon_1"><img src="images/icon-3.png"></div>
+            <h3 class="accounting_text_1">95%</h3>
+            <p class="yers_text">Satisfaction Rate</p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="icon_1"><img src="images/icon-4.png"></div>
+            <h3 class="accounting_text_1">95%</h3>
+            <p class="yers_text">Projects Success</p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="icon_1"><img src="images/icon-2.png"></div>
+            <h3 class="accounting_text_1">99%</h3>
+            <p class="yers_text">Client Retention</p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="icon_1"><img src="images/icon-1.png"></div>
+            <h3 class="accounting_text_1">100%</h3>
+            <p class="yers_text">Commitment to Excellence</p>
+          </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">Copyright
-                        &copy; 2024  , All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://www.acmeflare.in/">Acmeflare Technologies</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    
+    <!--project section end -->
+    <!--team section start -->
+    <!-- <div class="team_section layout_padding">
+      <div class="container">
+        <h1 class="what_taital">Our Team and experts</h1>
+        <p class="what_text_1">It is a long established fact that a reader will be distracted by the readable content of a </p>
+        <div class="team_section_2 layout_padding">
+          <div class="row">
+            <div class="col-sm-3">
+              <img src="images/img-7.png" class="image_7">
+              <p class="readable_text">Readable</p>
+              <p class="readable_text_1">Follow Us</p>
+              <div class="social_icon">
+                <ul>
+                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <img src="images/img-8.png" class="image_7">
+              <p class="readable_text">Content</p>
+              <p class="readable_text_1">Follow Us</p>
+              <div class="social_icon">
+                <ul>
+                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <img src="images/img-9.png" class="image_7">
+              <p class="readable_text">Readable</p>
+              <p class="readable_text_1">Follow Us</p>
+              <div class="social_icon">
+                <ul>
+                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <img src="images/img-10.png" class="image_7">
+              <p class="readable_text">Content</p>
+              <p class="readable_text_1">Follow Us</p>
+              <div class="social_icon">
+                <ul>
+                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--team section end -->
+    <!--client section start -->
+    <div class="client_section layout_padding">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1 class="what_taital" style="color: white;">what is says our clients</h1>
+              <div class="client_section_2 layout_padding">
+                <ul>
+                  <!-- <li><img src="images/round-1.png" class="round_1"></li> -->
+                  <li><img style="max-width: 120px;border-radius: 50%;" src="images/img/1.jpg" class="image_11"></li>
+                  <!-- <li><img src="images/round-2.png" class="round_2"></li> -->
+                </ul>
+                <p class="dummy_text" style="color: white;">
+                  "PrelimFormula delivered excellent results for our business, guiding us effectively through complex exporting procedures. Their professionalism and expertise truly made a difference." - Asher .                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h1 class="what_taital" style="color: white;">what is says our clients</h1>
+              <div class="client_section_2 layout_padding">
+                <ul>
+                   <li><img style="max-width: 120px;border-radius: 50%;" src="images/img/2.jpg" class="image_11"></li>
+                 </ul>
+                <p class="dummy_text" style="color: white;">
+                  "I am pleased with the real estate services provided by PrelimFormula. They listened to our requirements and successfully matched us with a property that met our needs. Thank you!" - Abhijith.                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h1 class="what_taital" style="color: white;">what is says our clients</h1>
+              <div class="client_section_2 layout_padding">
+                <ul>
+                   <li><img style="max-width: 120px;border-radius: 50%;" src="images/img/3.jpg" class="image_11"></li>
+                 </ul>
+                <p class="dummy_text" style="color: white;">
+                  "The business consulting support from PrelimFormula was instrumental in helping us streamline our operations. Their practical advice and insights have added value to our organization." - Shaima.                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--client section end -->
+   
+  
+    <!--footer section start -->
+    <div class="footer_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <h4 class="about_text">Address</h4>
+            <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_15">Locations</span></div>
+            <div class="location_text"><img src="images/call-icon.png"><span class="padding_left_15">+91 000 000 0000</span></div>
+            <div class="location_text"><img src="images/mail-icon.png"><span class="padding_left_15">demo@gmail.com</span></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h4 class="about_text">Adios</h4>
+            <p class="dolor_text">"PrelimFormula: Your gateway to success across multiple industries."</p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h4 class="about_text">Links</h4>
+            <ul>
+              <li><a style="color: wheat;" href="home.html">Home</a></li>
+              <li><a style="color: wheat;" href="about.html">About</a></li>
+              <li><a style="color: wheat;" href="service.html">Service</a></li>
+              <li><a style="color: wheat;" href="contact.html">Contact</a></li>
+            </ul>
+            
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h4 class="about_text">Social media</h4>
+          
+            <div class="footer_social_icon">
+              <ul>
+                <li><a href="#"><img src="images/fb-icon1.png"></a></li>
+                 <li><a href="#"><img src="images/twitter-icon1.png"></a></li>
+                <li><a href="#"><img src="images/linkedin-icon1.png"></a></li>
+                <li><a href="#"><img src="images/youtub-icon1.png"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- copyright section start -->
+        <div class="copyright_section">
+          <div class="copyright_text">Copyright 2024 All Right Reserved By <a href="https://www.acmeflare.in/">Acmeflare Technologies</a></div>
+        </div>
+        <!-- copyright section end -->
+      </div>
+    </div>
+    <!--footer section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> 
 </body>
-
 </html>
