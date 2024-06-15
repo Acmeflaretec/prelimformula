@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #0a0d13;
-  --color-primary: #0d42ff;
+  --color-primary: #c7a20e;
   --color-secondary: #0e1d34;
 }
 
@@ -140,7 +140,7 @@ section {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: rgba(14, 29, 52, 0.8);
+  background-color: #c7a20e6b;
   position: absolute;
   inset: 0;
 }
@@ -583,7 +583,7 @@ section {
 }
 
 .featured-services .service-item .icon i {
-  color: #001f8d;
+  color: #ebc21f;
   font-size: 48px;
   transition: 0.3s;
 }
@@ -606,7 +606,7 @@ section {
 
 .featured-services .service-item .description {
   font-size: 15px;
-  color: #132848;
+  color: #ebc21f;
   margin-bottom: 10px;
 }
 
@@ -804,7 +804,7 @@ section {
 # Call To Action Section
 --------------------------, url("../img/cta-bg.jpg") center center------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(13, 22, 39, 0.905), rgba(1, 9, 56, 0.862));
+  background: linear-gradient(#c7a20e, #c7a20e);
   background-size: cover;
   padding: 100px 0;
 }
@@ -1069,7 +1069,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/t1.jpg") no-repeat;
+  background: url("../img/ylw.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1800,11 +1800,13 @@ section {
 }
 
 /*--------------------------------------------------------------
+
 # Footer
+
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: var(--color-secondary);
+  background-color: #c7a20e;
   padding: 50px 0;
   color: white;
 }
@@ -1869,6 +1871,7 @@ section {
 }
 
 .footer .footer-links ul i {
+
   padding-right: 2px;
   color: rgba(13, 66, 255, 0.8);
   font-size: 12px;
