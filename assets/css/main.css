@@ -140,7 +140,7 @@ section {
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: #c7a20e6b;
+  background-color: #0000006b;
   position: absolute;
   inset: 0;
 }
